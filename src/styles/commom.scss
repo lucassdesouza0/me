@@ -1,0 +1,15 @@
+@import '_variables.scss';
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: $dark-1;
+    color: $light-2;
+    font-family: Montserrat;
+}
+
+.body-container {
+    width: 100%;
+    height: 100%;
+}

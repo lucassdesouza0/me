@@ -1,16 +1,20 @@
 import React from "react";
 
-// import { Container } from './styles';
-
 const Menu: React.FC = () => {
   return (
-    <div>
+    <nav className="menu-container">
       <ul>
-        <li>Home</li>
-        <li>Blog</li>
-        <li>Bio</li>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#blog">Blog</a>{" "}
+        </li>
+        <li>
+          <a href="#bio">Bio</a>{" "}
+        </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 

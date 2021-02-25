@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import Router from "../navigation";
 
-import "../styles/commom.scss";
+import "../styles/index.scss";
 
 export default function App() {
   return (

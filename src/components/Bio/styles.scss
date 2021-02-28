@@ -1,0 +1,50 @@
+.bio-container {
+    .time-line {
+        display: flex;
+        .lines {
+            margin-left: 40px;
+            margin-top: 6px;
+
+            .dot {
+                width: 14px;
+                height: 14px;
+                background: $light-2;
+                border-radius: 7px;
+            }
+
+            .line {
+                width: 2px;
+                background: $light-2;
+                margin-left: 5.3px;
+
+                &.small {
+                    height: 25px;
+                }
+                &.medium {
+                    height: 50px;
+                }
+                &.large {
+                    height: 103px;
+                }
+            }
+        }
+        .text-boxes {
+            margin-left: 40px;
+            .box {
+                margin-top: 5px;
+                &.small {
+                    margin-top: 20px;
+                }
+                &.medium {
+                    margin-top: 45px;
+                }
+                &.large {
+                    margin-top: 98px;
+                }
+                p {
+                    margin: 0px;
+                }
+            }
+        }
+    }
+}

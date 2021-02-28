@@ -5,7 +5,7 @@ import React from "react";
 const Blog: React.FC = () => {
   return (
     <section id="blog">
-      <h2>Blog</h2>
+      <h2>BLOG</h2>
     </section>
   );
 };

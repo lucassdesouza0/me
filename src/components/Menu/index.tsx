@@ -5,13 +5,10 @@ const Menu: React.FC = () => {
     <nav className="menu-container">
       <ul>
         <li>
-          <a href="#home">Home</a>
+          <a href="#bio">Bio</a>{" "}
         </li>
         <li>
           <a href="#blog">Blog</a>{" "}
-        </li>
-        <li>
-          <a href="#bio">Bio</a>{" "}
         </li>
       </ul>
     </nav>

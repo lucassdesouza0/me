@@ -4,8 +4,9 @@ import React from "react";
 
 const Blog: React.FC = () => {
   return (
-    <section id="blog">
-      <h2>Blog</h2>
+    <section id="bio" className="bio-container">
+      <h2 className="bio-header">BLOG</h2>
+      <p>Em construção...</p>
     </section>
   );
 };

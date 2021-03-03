@@ -1,50 +1,86 @@
 .bio-container {
-    .time-line {
+    .bio-header {
+        margin: $margin-large 0 $margin-large;
+
+        color: $light-1;
+        font-weight: $font-weight-regular;
+        font-size: $font-large * 2;
+        text-align: left;
+    }
+    .bio-content {
         display: flex;
-        .lines {
-            margin-left: 40px;
-            margin-top: 6px;
+        flex-direction: row;
 
-            .dot {
-                width: 14px;
-                height: 14px;
-                background: $light-2;
-                border-radius: 7px;
+        .time-line {
+            flex: 1;
+            display: flex;
+            .lines {
+                margin-left: 40px;
+                margin-top: 6px;
+
+                .dot {
+                    width: 14px;
+                    height: 14px;
+                    background: $light-2;
+                    border-radius: 7px;
+                }
+
+                .line {
+                    width: 2px;
+                    background: $light-2;
+                    margin-left: 5.3px;
+
+                    &.small {
+                        height: 25px;
+                    }
+                    &.medium {
+                        height: 50px;
+                    }
+                    &.large {
+                        height: 103px;
+                    }
+                }
             }
+            .text-boxes {
+                width: 200px;
+                margin-left: 40px;
+                .box {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin-top: 5px;
 
-            .line {
-                width: 2px;
-                background: $light-2;
-                margin-left: 5.3px;
+                    &.small {
+                        margin-top: 20px;
+                    }
+                    &.medium {
+                        margin-top: 45px;
+                    }
+                    &.large {
+                        margin-top: 98px;
+                    }
+                    .period {
+                        margin: 0px;
+                    }
+                    .company-name {
+                        text-align: right;
+                        margin-left: 20px;
+                        font-weight: $font-weight-large;
+                        text-decoration: none;
+                        color: currentColor;
+                    }
 
-                &.small {
-                    height: 25px;
-                }
-                &.medium {
-                    height: 50px;
-                }
-                &.large {
-                    height: 103px;
+                    .description {
+                        margin-left: 20px;
+                        background-color: $dark-1;
+                    }
                 }
             }
         }
-        .text-boxes {
-            margin-left: 40px;
-            .box {
-                margin-top: 5px;
-                &.small {
-                    margin-top: 20px;
-                }
-                &.medium {
-                    margin-top: 45px;
-                }
-                &.large {
-                    margin-top: 98px;
-                }
-                p {
-                    margin: 0px;
-                }
-            }
+        .bio-description {
+            flex: 1;
+            align-content: flex-end;
+            text-align: end;
         }
     }
 }

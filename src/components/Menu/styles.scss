@@ -12,12 +12,9 @@
         li {
             a {
                 text-decoration: none;
-                color: $light-1;
+                color: $light-2;
                 font-weight: 700;
                 font-size: $font-large;
-                &:hover {
-                    color: $light-2;
-                }
             }
         }
     }

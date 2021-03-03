@@ -29,7 +29,7 @@ const Bio: React.FC = () => {
                   >
                     {i.companyName}
                   </a>
-                  {/* <span className="description">{i.description}</span> */}
+                  <span className="description">{i.description}</span>
                 </div>
               );
             })}

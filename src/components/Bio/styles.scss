@@ -42,12 +42,13 @@
                 }
             }
             .text-boxes {
+                flex: 1;
                 width: 200px;
                 margin-left: 40px;
                 .box {
                     display: flex;
                     flex-direction: row;
-                    justify-content: space-between;
+                    // justify-content: space-between;
                     margin-top: 5px;
 
                     &.small {
@@ -63,6 +64,7 @@
                         margin: 0px;
                     }
                     .company-name {
+                        justify-self: center;
                         text-align: right;
                         margin-left: 20px;
                         font-weight: $font-weight-large;
@@ -71,8 +73,9 @@
                     }
 
                     .description {
+                        // text-align: end;
                         margin-left: 20px;
-                        background-color: $dark-1;
+                        // background-color: $dark-1;
                     }
                 }
             }

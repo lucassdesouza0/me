@@ -3,20 +3,22 @@ export const bio = {
     {
       initialPeriod: "maio/2016",
       companyName: "FGV",
-      description: "lorem ipsum",
+      description: "html, bootstrap, javascript, vuejs, git, npm, gulp, ruby",
       link: "https://portal.fgv.br/",
     },
     {
       initialPeriod: "maio/2019",
       companyName: "Unicad",
-      description: "lorem ipsum",
+      description:
+        "react, react native, redux, saga, firebase, nodejs, laravel, docker, mix panel",
       link: "https://site.grupounicad.com.br/",
       size: "large",
     },
     {
       initialPeriod: "abril/2020",
       companyName: "Mosaico",
-      description: "lorem ipsum",
+      description:
+        "typescript, nodejs, react, hooks, nextjs, sass, ssr, web performance",
       link: "https://www.mosaico.com.br",
       size: "medium",
     },
